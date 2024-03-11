@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
+
 return [
 
     /*
@@ -84,7 +85,9 @@ return [
     */
 
     'locale' => 'es',
-
+    'fallback_locale' => 'es',
+    'locales' => ['en' => 'English', 'es' => 'Español'],
+    
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
